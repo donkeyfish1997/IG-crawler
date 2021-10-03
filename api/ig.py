@@ -5,7 +5,6 @@ import json
 
 with open('./api/info.pickle', 'rb') as f:
     info = pickle.load(f)
-cookies = info['cookies']
 session = requests.session()
 
 
